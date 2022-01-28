@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:905px)" href="phone.css">
+    <link rel="stylesheet" href="conatct.php">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&family=Roboto+Slab:wght@500&display=swap"
+        rel="stylesheet">
+    
+    <title>Priyanshu Sharma</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="Priyanshu Sharma">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <!-- <li class="item"><a href="#services-containor">Services</a></li> -->
+            <li class="item"><a href="#about-containor">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="center">Priyanshu Sharma</h1>
+        <p class="text"> “A person who never made a mistake never tried anything new." 
+        </p>
+        <img src="homebackground.jpg" alt="">
+    </section>
+    <section id="about-containor">
+
+        <h1>Welcome</h1>
+        <div id="about">
+            <div class="box">
+                <img src="profile1.jpg" alt="">
+            </div>
+            <div class="box">
+                <p>
+                    Name- Priyanshu Sharma
+                </p>
+                
+                <p>
+                    Father name - Rajeev Sharma
+                </p>
+                <p>
+                    Qualification- B.tech (C.S.E)
+                </p>
+                <p> Email Address- princesharmaji2311@gmail.com</p>
+                <p>Contact No- 8865914625 , 7668649758</p>
+            </div>
+        </div>
+    </section>
+     <section id="services-containor">
+        <h1 class="center">Our services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="service1.jpg" alt="">
+                <h2 class="center">Registrations</h2>
+                <p class="center">
+                    GST Registration-2,500.00,
+                    Company Registration-15,000.00,
+                    Import Export Code-15,000.00,
+                    Trust Registration-15,000.00,
+                </p>
+            </div>
+            <div class="box">
+                <img src="service2.jpg" alt="">
+                <h2 class="center">G.S.T</h2>
+                <p class="center">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe rem provident explicabo earum
+                    eveniet architecto quia distinctio exercitationem porro incidunt?
+                </p>
+            </div>
+            <div class="box">
+                <img src="service3.jpg" alt="">
+                <h2 class="center">Income Tax</h2>
+                <p class="center">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe rem provident explicabo earum
+                    eveniet architecto quia distinctio exercitationem porro incidunt?
+                </p>
+            </div>
+        </div>
+    </section> 
+    <section id="contact">
+        <h1 class="center">
+            Contact Me        </h1>
+        <!-- <img src="contact bg.jpg" alt="contact"> -->
+        <div id="contact-box">
+            <form action="contact.php" method="POST" id="conatct-box"></form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Contact No.</label>
+                <input type="phone" name="name" id="contact" placeholder="Enter your Contact No." required>
+            </div>
+            <div class="form-group">
+                <label for="name">Email Address</label>
+                <input type="email" name="name" id="email" placeholder="Enter your Email Address" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your Message" required></textarea>
+            </div>
+            <!-- <button class="btn">Submit Now</button> -->
+            <input type="submit" class="btn" value="Send Message">
+        </div>
+    </section>
+    
+    <footer>
+        <div class="center">
+            Copyright &copy; www.priyanshusharma.com All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
